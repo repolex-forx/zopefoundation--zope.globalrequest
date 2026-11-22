@@ -3,6 +3,11 @@
   "repo": "zope.globalrequest",
   "versions": [
     {
+      "commit": "1502ee3d510396696bddd744ff1f12b58ba27912",
+      "tag": "3.0",
+      "parsed_at": "2026-11-22T00:22:54.462554+00:00"
+    },
+    {
       "commit": "200ba7e70df3a9188cdfa2c0b81758216a4ac572",
       "tag": "",
       "parsed_at": "2026-11-06T01:25:58.889532+00:00"

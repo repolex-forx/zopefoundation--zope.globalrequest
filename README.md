@@ -36,9 +36,15 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 1502ee3d510396696bddd744ff1f12b58ba27912
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 200ba7e70df3a9188cdfa2c0b81758216a4ac572
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 1502ee3d510396696bddd744ff1f12b58ba27912.nq.gz
 │   └── repolex
+│       ├── 1502ee3d510396696bddd744ff1f12b58ba27912
+│       │   └── chunk-001.nq.gz
 │       └── 200ba7e70df3a9188cdfa2c0b81758216a4ac572
 │           └── chunk-001.nq.gz
 ├── blob
@@ -47,6 +53,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 0ab12fe1e0c8eb6cb0d68fce1b14a2209cdb0def.nq.gz
 │   ├── 1f321f52abb7db6f79c285bab56e2852dc575699.nq.gz
 │   ├── 32c47f079c81a579948a4952d1f5ee67126930c2.nq.gz
+│   ├── 39dd11e8ab743195dfcfa192551f478b8637194b.nq.gz
 │   ├── 3a3a5cacd93abc8e9e35e5a2af597c174078a92c.nq.gz
 │   ├── 3abf0579e33d4124f728ddd491748787c5ee85bd.nq.gz
 │   ├── 564853291998f83dc57aa414210e8919209b46fd.nq.gz
@@ -62,12 +69,16 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── bcc7020fbb5627846d364ba3eeff53bbef95d48d.nq.gz
 │   ├── c5508b9f083362a81185d598327e7801d837cb18.nq.gz
 │   ├── ccdedc28073a0ba8303c52c91284a4e7e70bb471.nq.gz
+│   ├── e529f5dc160f596f1a369b01df72311a7228af92.nq.gz
 │   └── f0ed9d001e553f388470f3a0b5eca7e9269311c7.nq.gz
 ├── branch
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 1502ee3d510396696bddd744ff1f12b58ba27912.nq.gz
 ├── filetree
+│   ├── 1502ee3d510396696bddd744ff1f12b58ba27912.nq.gz
 │   └── 200ba7e70df3a9188cdfa2c0b81758216a4ac572.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -76,7 +87,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 29 files
+17 directories, 36 files
 ```
 
 | Directory | What it contains |
@@ -97,4 +108,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [zopefoundation/zope.globalrequest](https://github.com/zopefoundation/zope.globalrequest)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
